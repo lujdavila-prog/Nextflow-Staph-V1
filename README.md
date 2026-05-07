@@ -5,4 +5,4 @@ The pipeline uses Docker containers with FASTP to quality-filter and trim raw re
 
 This pipeline was specifically built for SRR37176627, a publicly available S. aureus accession from the NCBI Sequence Read Archive. It will work for other FASTQ.gz files as long as params.reads and params.genome are updated accordingly in the script.
 
-Nextflow and Docker are required to run this pipeline.
+Nextflow, Docker and the nextflow.config file provided are required to run this pipeline.
